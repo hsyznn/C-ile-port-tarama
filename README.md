@@ -6,5 +6,6 @@ Hızlı bir şekilde tüm portları taramak için kullandığım basit bir C pro
 chmod +x ile izinleri verin ve sudo ile çalıştırmayı unutmayın. 
 
 ```
-sudo nmap.c <Target İp>
+gcc -o scan.c nmap.c
+sudo ./scan.c <Target İp>
 ```
